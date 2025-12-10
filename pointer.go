@@ -43,7 +43,11 @@ func convert(address *int ){
 fmt.Println("Age before calling",p1.age)
 p1.UpdateAge()
 fmt.Println("Age after calling",p1.age)
-}
 
+// Nil pointer ->Runtime panic
+var p3 *int=nil
+
+fmt.Println(p3)
+}
 
 
